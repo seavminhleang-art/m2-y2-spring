@@ -1,0 +1,6 @@
+
+spring:
+  application:
+     name: api_mvc
+server:
+    port: 12000
