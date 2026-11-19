@@ -1,0 +1,18 @@
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: myuser
+    password: reset2025
+  application:
+    name: api_mvc
+server:
+  port: 12000
